@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lgoo img{
+    width: 33% ;
+    border: 3px solid white;
+    border-radius: 59px;
+}
+
+img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    color: rgb(10, 10, 10);
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(242, 234, 234);
+}
+.nav-list li a:hover{
+    color: gray;
+}
+
+.rightNav{
+    width: 91%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../images/white2.jpeg');
+    background-size: cover;
+    mix-blend-mode: darken;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 45%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.firsthalf{
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    width: 50%;
+}
+
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 130px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 34px;
+    color: black;
+    font-weight: 700;
+}
+
+.text-small{
+    font-size: 28px;
+    padding: 50px;
+    text-decoration: underline;
+    color: black;
+    font-weight: 900;
+}
+
+.para1{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 800;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: blue;
+}
+
+.para2{
+    font-size: xx-large;
+    text-decoration: overline;
+    text-rendering: inherit;
+    font-style:italic;
+    font-weight: 800;
+    font-display:initial;
+    font-variant:small-caps;
+    font-stretch: normal;
+    flex-direction: column-reverse;
+    flex-shrink: inherit;
+    color: blue;
+}
+
+.head{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-style: oblique;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.head2{
+    font-weight: 600 bolder;
+    color: darkgray;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.head3{
+    color: black;
+    font-style: oblique;
+    text-overflow:initial;
+    text-indent: 50px;
+}
+
+.button li a:hover{
+    color: grey;
+}
+
+/* .btn1{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.btn2{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+} */
